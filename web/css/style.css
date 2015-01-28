@@ -1,0 +1,32 @@
+body{
+	background-color: #ffc879;
+	font-family: "Comic sans MS";
+}
+.largeur-de-la-balle{
+	margin: 0 auto;
+	width: 960px;
+	height: 100px;
+}
+#header{
+	background-color: #000;
+	color: #ff9900;
+	font-size: 40px;
+}
+#menu{
+	height: 40px;
+}
+#menu h1:first-of-type {
+	margin-top: 0px
+}
+#content{
+	width: 940px;
+	background-color: #fff;
+	min-height: 600px;
+	padding: 10px 10px;
+}
+#footer{
+	background-color: #000;
+	color: #ffffff;
+	font-size: 20px;
+	height: 100px;
+}
