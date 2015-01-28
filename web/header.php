@@ -8,7 +8,6 @@
 <head>
 	<title><?php echo $title?></title>
 	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-		<!-- Commentaire alexa-->
 </head>
 <body>
 <div id="header" class="largeur-de-la-balle">Le header</div>
@@ -23,7 +22,6 @@
 	if(!($result = $db->query($sql))){
 		die('erreur SQL header');
 	}
-
 ?>
 <?php while( $row = $result->fetch_assoc()): ?>
 	<a href="index.php?page=<?php echo $row['page'];?>"><?php echo $row['menu_title']?></a>
