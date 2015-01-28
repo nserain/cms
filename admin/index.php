@@ -21,7 +21,7 @@
 </form>
 <table border="1">
 	<tr>
-		<th>titre</th>
+		<th>titre yolo</th>
 		<th>menu</th>
 		<th>adresse</th>
 		<th>contenu</th>
