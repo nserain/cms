@@ -4,3 +4,4 @@
 	if( $db->connect_errno ){
 		die( $db->connect_error );
 	}
+	// comcomcom------>
